@@ -3,7 +3,9 @@ Create, deploy and manage cloud infrastructure using terraform.
 
 ## main.tf
 This main.tf file is used to define all the resources you wish to launch or manage with terraform. Below are some high level walkthroughs of the code:
-### count = 4 
+### 
+```count = 4
+``` 
 It signifies number of resources to create. count = 4 will create Four resources of the same kind will be provisioned.
 
 ### Amazon machine image (ami) - 
