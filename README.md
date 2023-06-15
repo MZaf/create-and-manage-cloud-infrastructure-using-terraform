@@ -33,3 +33,10 @@ Allows you to define the name according to index. For example if the value of co
 Lookup 
 ```
 Retrieves the value of a single element from a map, given its key. If you don't declare any key then the default value is considered.
+
+
+## Create File terraform.tfvars and Add instance_type
+Define and choose your instance_type according to your needs.
+```
+instance_type = "t2.micro" 
+```
